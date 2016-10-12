@@ -65,6 +65,7 @@ public class MainActivity extends AppCompatActivity {
         llNumPicker.addView(npMon, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.MATCH_PARENT, 0.5f));
         llNumPicker.addView(npDate, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.MATCH_PARENT, 0.5f));
         llInput.addView(btnGo, new LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT, 0.1f));
+        // Reference : http://stackoverflow.com/questions/4641072/how-to-set-layout-weight-attribute-dynamically-from-code/23996182
 
         btnGo.setOnClickListener(new Button.OnClickListener() {
             @Override
